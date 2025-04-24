@@ -30,7 +30,7 @@ export default function Header() {
             <SecondaryButton onClick={() => scrollTo('#experience')} label="Experience" icon={<FaAward size={16} />} />
             <SecondaryButton onClick={() => scrollTo('#projects')} label="Projects" icon={<FaProjectDiagram size={16} />} />
             <SecondaryButton onClick={() => scrollTo('#skills')} label="Skills" icon={<FaBrain size={16} />} />
-            <SecondaryButton onClick={() => scrollTo('#contacts')} label="Contacts" icon={<FaPaperPlane size={16} />} />
+            <SecondaryButton onClick={() => scrollTo('#contacts')} label="Contacts" icon={<FaPaperPlane size={15} />} />
           </div>
         </div>
       </WrapperBody>

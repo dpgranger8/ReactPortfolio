@@ -17,7 +17,7 @@ export default function Skills() {
     <div id="skills" className="w-full border-b border-dashed border-zinc-800">
       <WrapperBody>
         <div className="flex flex-col gap-4">
-          <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaBrain />Skills</p>
+          <p className="flex gap-3 items-center font-['Geist'] font-bold text-2xl"><FaBrain />Skills</p>
           {skillSection("Language", profile.skills.languages)}
           {skillSection("Frameworks", profile.skills.frameworks)}
         </div>

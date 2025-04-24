@@ -10,7 +10,7 @@ export default function Bio() {
           <h1 className="font-['Geist'] font-[700] text-4xl">👋 I'm {profile.name}</h1>
           <p className="w-full 2xl:w-2/3">{profile.bio}</p>
         </div>
-        <div className="flex mt-4 gap-4">
+        <div className="flex mt-5 gap-4">
           <PrimaryButton href="#contacts" label="Get contacts" />
           <SecondaryButton href={profile.meetingLink} label="Schedule a meeting" />
         </div>

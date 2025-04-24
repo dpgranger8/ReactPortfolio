@@ -8,7 +8,7 @@ export default function Education() {
     <div id="education" className="w-full border-b border-dashed border-zinc-800">
       <WrapperBody>
         <div className="flex flex-col gap-4">
-          <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaGraduationCap />Education</p>
+          <p className="flex gap-3 items-center font-['Geist'] font-bold text-2xl"><FaGraduationCap />Education</p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div className="flex flex-col gap-4 border border-zinc-800 hover:border-zinc-600 rounded-lg py-8 px-6">
               <img src={profile.education.logo} alt="university-logo" className="h-16 object-contain" />

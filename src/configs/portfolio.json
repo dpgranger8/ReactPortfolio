@@ -24,7 +24,8 @@
   "meetingLink": "https://meet.google.com",
   "skills": {
     "languages": [
-      "JavaScript"
+      "JavaScript",
+      "Tailwind"
     ],
     "frameworks": [
       "React",
@@ -82,7 +83,7 @@
     {
       "from": 1730347070000,
       "to": 1740347070445,
-      "company": "Microsft",
+      "company": "Microsoft",
       "role": "Senior Software Engineer",
       "logo": "https://companiesmarketcap.com/img/company-logos/64/MSFT.webp",
       "descriptions": [
@@ -94,7 +95,7 @@
     {
       "from": 1730347070000,
       "to": 1740347070445,
-      "company": "Microsft",
+      "company": "Microsoft",
       "role": "Senior Software Engineer",
       "logo": "https://companiesmarketcap.com/img/company-logos/64/GOOG.webp",
       "descriptions": [

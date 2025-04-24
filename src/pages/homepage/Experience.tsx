@@ -1,7 +1,7 @@
 import WrapperBody from "../../layouts/wrapper";
 import profile from "../../configs/portfolio.json";
 import { FaAward } from "react-icons/fa";
-import dayjs from "dayjs";
+//import dayjs from "dayjs";
 
 export default function Experience() {
   return (
@@ -24,9 +24,9 @@ export default function Experience() {
                 <div>
                   <div className="flex items-center gap-2">
                     <p className="text-zinc-50 font-semibold">{experience.role}</p>
-                    <p className="text-sm text-zinc-500">
+                    {/* <p className="text-sm text-zinc-500">
                       {dayjs(experience.from).format('MMM YYYY')} ~ {experience.to === 'present' ? 'Present' : dayjs(experience.to).format('MMM YYYY')}
-                    </p>
+                    </p> */}
                   </div>
                   <ul className="text-sm text-zinc-300 mt-3 pl-4">
                     {experience.descriptions.map((description, index) => (

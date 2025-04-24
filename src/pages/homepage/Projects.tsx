@@ -22,7 +22,7 @@ export default function Projects() {
                 </div>
                 <div className="w-full flex flex-wrap justify-start gap-1">
                   {project.skills?.map((skill) => (
-                    <p key={skill} className="text-[12px] border border-zinc-800 px-3 py-1 rounded-full">{skill}</p>
+                    <p key={skill} className="text-[14px] border border-zinc-800 px-3 py-1 rounded-full">{skill}</p>
                   ))}
                 </div>
               </div>

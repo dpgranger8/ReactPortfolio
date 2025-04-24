@@ -10,7 +10,7 @@ export default function Contacts() {
           <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaPaperPlane />Contacts</p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div className="flex items-center gap-4">
-              <FaEnvelope size={20} />
+              <FaEnvelope size={21} />
               {profile.contacts.email}
             </div>
             <div className="flex items-center gap-4">
